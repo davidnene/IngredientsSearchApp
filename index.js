@@ -33,13 +33,20 @@ function displayMeals(data) {
             let input = e.target.text.value
             console.log(input)
             console.log(meal)
+            
             for (let i of meal) {
                 if (i.strIngredient.toLowerCase() === input.toLowerCase()) {
                     form.reset();
                     return p.innerText = i.strDescription
-                } else if (i.strIngredient.toLowerCase() !== input.toLowerCase()) {
+
+                } else if (input === "clear") {
+                    form.reset();
+                    return p.innerText = ""
+
+                }else if (i.strIngredient.toLowerCase() !== input.toLowerCase()) {
                    p.innerText = `Sorry ${input} does not exist in our database \n Try another ingredient :-)`
-               }
+               } 
+               
             form.reset();
 
 
