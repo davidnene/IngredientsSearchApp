@@ -8,7 +8,7 @@ function fetchData() {
 
 function displayMeals(data) {
     const meals = data.meals
-    let meal = meals.slice(2, 30)
+    let meal = meals.slice(0, 30)
     const ingredients = document.getElementById('ingredient')
 
     ingredients.style.columns = "70px 4"
@@ -33,7 +33,7 @@ function displayMeals(data) {
             let input = e.target.text.value
             console.log(input)
             console.log(meal)
-            
+
             for (let i of meal) {
                 if (i.strIngredient.toLowerCase() === input.toLowerCase()) {
                     form.reset();
