@@ -1,0 +1,31 @@
+body div#content {
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    padding-top: 40px;
+    background: aqua;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+
+body {
+    background: black;
+    
+}
+
+.heading{
+    margin: auto;
+    text-align: center;
+    background-color: orangered;
+
+}
+
+#form, #p {
+    text-align: center;
+}
+
+#p {
+    background: wheat;
+    color: black;
+}
