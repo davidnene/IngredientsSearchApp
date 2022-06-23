@@ -3,14 +3,18 @@ body div#content {
     padding: 20px;
     width: 70%;
     padding-top: 40px;
-    background: aqua;
-    color: black;
-    position: relative;
-    top: 50px;
+    background: black;
+    color: white;
+    position: relative; 
+    top: 3px;
+    
 }
 
 body {
     background: black;
+    background: url("https://thumbs.dreamstime.com/b/asian-food-background-various-ingredients-rustic-stone-top-view-vietnam-thai-cuisine-148762904.jpg");
+    ;
+    width: 100%;
     
 }
 
@@ -18,14 +22,62 @@ body {
     margin: auto;
     text-align: center;
     background-color: orangered;
+    border-radius: 10%;
+}
+#h2 {
+    background-color: black;
+}
+#h3 {
+    color: black;
+}
+#formheading {
+    color: black;
+    margin: auto;
+    background-color: orangered;
+    width: 30%;
+    border-radius: 10%;
+}
 
+#submit {
+    background: orangered;
+    font-weight: bold;
 }
 
 #form, #p {
     text-align: center;
+    position: relative;
+    top: -80px;
 }
 
 #p {
-    background: wheat;
+    background: white;
     color: black;
+}
+
+#image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 720px;
+    top: 260px;
+    border: 2px solid;
+    border-color: orangered;
+    border-radius: 50%;
+}
+
+#ingredient {
+    position: relative;
+    top: -120px;
+}
+
+#chickenimage {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    right: 150px;
+    top: 260px;
+    border: 2px solid;
+    border-color: orangered;
+    border-radius: 50%;
+
 }
